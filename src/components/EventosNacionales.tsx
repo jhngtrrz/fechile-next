@@ -41,7 +41,7 @@ export function EventosNacionales() {
             </CardContent>
             <CardFooter className="justify-center pb-6">
               <Link href="/inscripcion-encuentro-nacional-2025">
-                <Button size="lg" className="rounded-full">
+                <Button className="transition-colors hover:text-foreground/80 text-foreground/60">
                   Preinscripción
                 </Button>
               </Link>

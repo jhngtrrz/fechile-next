@@ -45,7 +45,7 @@ export function MinistryGallery() {
   return (
     <section className="w-full py-6 bg-foreground flex items-center justify-center">
       <div className="container">
-        <h2 className="text-3xl font-bold text-center mb-8">MINISTERIOS</h2>
+        <h2 className="text-3xl font-bold text-center mb-8 text-primary">MINISTERIOS</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {ministries.map((ministry) => (
             <Card
@@ -68,7 +68,7 @@ export function MinistryGallery() {
         </div>
         <div className="mt-8 text-center">
           <Link href="/ministerios" passHref>
-            <Button className="transition-all duration-300 ease-in-out transform hover:scale-105">Ver Más</Button>
+            <Button className="transition-colors hover:text-foreground/80 text-foreground/60">Ver Más</Button>
           </Link>
         </div>
       </div>
