@@ -33,9 +33,9 @@ export function EventosNacionales() {
               <div className="p-6 text-center">
                 <p className="text-xl italic text-primary">Temuco</p>
                 <p className="text-lg mt-2">
-                  Atención a la nueva fecha:
+                  Atención a la fecha:
                   <br />
-                  <span className="font-semibold">04 al 06 de Septiembre</span>
+                  <span className="font-semibold">21 y 2 de Noviembre</span>
                 </p>
               </div>
             </CardContent>
