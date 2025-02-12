@@ -22,7 +22,7 @@ const navItems = [
   { href: "/inscripcion-al-encuentro-nacional-2025", label: "Inscripción al Encuentro Nacional 2025" },
   { href: "/quienes-somos", label: "Quiénes somos" },
   { href: "/ministerios", label: "Ministerios" },
-  { href: "/unete", label: "nÚnete" },
+  { href: "/unete", label: "Únete" },
   { href: "/corazones", label: "Corazones" },
   { href: "/fe-en-accion", label: "FE en acción" },
 ]
