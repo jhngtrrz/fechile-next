@@ -37,7 +37,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange>
             <Header />
-            {children}
+            <main className="flex-grow">{children}</main>
             <Footer />
           </ThemeProvider>
         </body>
