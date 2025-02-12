@@ -9,7 +9,6 @@ body {
   flex-direction: column;
 }
 
-
 @layer base {
   :root {
     --background: 0 0% 100%;
