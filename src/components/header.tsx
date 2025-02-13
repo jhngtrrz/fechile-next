@@ -12,9 +12,9 @@ import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuList,
-  NavigationMenuTrigger,
+  /* NavigationMenuTrigger,
   NavigationMenuContent,
-  NavigationMenuLink
+  NavigationMenuLink */
 } from "@/components/ui/navigation-menu"
 
 const navItems = [
@@ -22,17 +22,16 @@ const navItems = [
   { href: "/inscripcion-al-encuentro-nacional-2025", label: "Inscripción al Encuentro Nacional 2025" },
   { href: "/quienes-somos", label: "Quiénes somos" },
   { href: "/ministerios", label: "Ministerios" },
-  { href: "/unete", label: "Únete" },
-  { href: "/corazones", label: "Corazones" },
-  { href: "/fe-en-accion", label: "FE en acción" },
+  { href: "/nucleos", label: "Núcleos" },
+  { href: "/contacto", label: "Contacto" },
 ]
 
-const moreItems = [
+/* const moreItems = [
   { href: "/oportunidades", label: "Oportunidades" },
   { href: "/blog",          label: "Blog" },
   { href: "/contacto",      label: "Contacto" },
   { href: "/eventos",       label: "Eventos" },
-]
+] */
 
 export function Header() {
   const [open, setOpen] = useState(false)
@@ -66,7 +65,7 @@ export function Header() {
                     {item.label}
                   </Link>
                 ))}
-                {moreItems.map((subItem) => (
+                {/* {moreItems.map((subItem) => (
                   <Link
                     key={subItem.href}
                     href={subItem.href}
@@ -75,7 +74,7 @@ export function Header() {
                   >
                     {subItem.label}
                   </Link>
-                ))}
+                ))} */}
               </nav>
             </SheetContent>
           </Sheet>
@@ -109,7 +108,7 @@ export function Header() {
                 </NavigationMenuItem>
               ))}
 
-              <NavigationMenuItem>
+              {/* <NavigationMenuItem>
                 <NavigationMenuTrigger className="transition-colors hover:text-foreground/80 text-foreground/60">
                   Más
                 </NavigationMenuTrigger>
@@ -130,7 +129,7 @@ export function Header() {
                     ))}
                   </div>
                 </NavigationMenuContent>
-              </NavigationMenuItem>
+              </NavigationMenuItem> */}
             </NavigationMenuList>
           </NavigationMenu>
         </div>
