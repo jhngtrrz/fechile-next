@@ -135,7 +135,7 @@ export function Header() {
           </NavigationMenu>
         </div>
 
-        {/* BOTÓN DONAR */}
+        {/* BOTÓN DONAR 
         <div className="flex items-center ml-auto">
           <Link href="/donar">
             <Button
@@ -146,6 +146,7 @@ export function Header() {
             </Button>
           </Link>
         </div>
+        */}
       </div>
     </header>
   )

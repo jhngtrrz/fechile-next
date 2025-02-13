@@ -35,7 +35,7 @@ export function EventosNacionales() {
                 <p className="text-lg mt-2">
                   Atención a la fecha:
                   <br />
-                  <span className="font-semibold">21 y 2 de Noviembre</span>
+                  <span className="font-semibold">21 y 22 de Noviembre</span>
                 </p>
               </div>
             </CardContent>
